@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.vityarthi.library.LibraryServiceTest" time="0.361" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Vithyarthi java project main\target\test-classes;C:\Vithyarthi java project main\target\classes;C:\Users\Divye Sinha\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\Divye Sinha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Divye Sinha\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Divye Sinha\AppData\Local\Temp\surefire1695790350142821695\surefirebooter-20260918233013793_3.jar C:\Users\Divye Sinha\AppData\Local\Temp\surefire1695790350142821695 2026-09-18T23-30-13_697-jvmRun1 surefire-20260918233013793_1tmp surefire_0-20260918233013793_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Vithyarthi java project main\target\test-classes;C:\Vithyarthi java project main\target\classes;C:\Users\Divye Sinha\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\Divye Sinha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Divye Sinha\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Divye Sinha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Divye Sinha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Vithyarthi java project main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Divye Sinha\AppData\Local\Temp\surefire1695790350142821695\surefirebooter-20260918233013793_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.2+10-55"/>
+    <property name="user.name" value="Divye Sinha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Divye Sinha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DIVYES~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.2"/>
+    <property name="user.dir" value="C:\Vithyarthi java project main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/Divye Sinha/.gemini/antigravity/bin;C:\Users\Divye Sinha\AppData\Roaming\Antigravity\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Users\Divye Sinha\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Divye Sinha\AppData\Local\Programs\Python\Python313\;C:\Users\Divye Sinha\AppData\Local\Microsoft\WindowsApps;C:\Users\Divye Sinha\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.2+10-55"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="testAddReviewSuccess" classname="com.vityarthi.library.LibraryServiceTest" time="0.177">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [1] Oppenheimer
+[2026-09-18 23:30:14] [main] [INFO] Review saved for film ID 1 with rating 4.8
+]]></system-out>
+  </testcase>
+  <testcase name="testAddReviewNonExistentFilm" classname="com.vityarthi.library.LibraryServiceTest" time="0.014">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+]]></system-out>
+  </testcase>
+  <testcase name="testAddFilmWithBlankTitle" classname="com.vityarthi.library.LibraryServiceTest" time="0.01">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+]]></system-out>
+  </testcase>
+  <testcase name="testAddReviewInvalidRating" classname="com.vityarthi.library.LibraryServiceTest" time="0.019">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [1] Memento
+]]></system-out>
+  </testcase>
+  <testcase name="testAddFilmWithInvalidYear" classname="com.vityarthi.library.LibraryServiceTest" time="0.01">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+]]></system-out>
+  </testcase>
+  <testcase name="testAddFilmSuccess" classname="com.vityarthi.library.LibraryServiceTest" time="0.019">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [1] Inception
+]]></system-out>
+  </testcase>
+  <testcase name="testGetFilmByIdNotFound" classname="com.vityarthi.library.LibraryServiceTest" time="0.014">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+]]></system-out>
+  </testcase>
+  <testcase name="testCalculateAverageRating" classname="com.vityarthi.library.LibraryServiceTest" time="0.034">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [1] The Matrix
+[2026-09-18 23:30:14] [main] [INFO] Review saved for film ID 1 with rating 4.0
+[2026-09-18 23:30:14] [main] [INFO] Review saved for film ID 1 with rating 5.0
+]]></system-out>
+  </testcase>
+  <testcase name="testFilterByGenre" classname="com.vityarthi.library.LibraryServiceTest" time="0.037">
+    <system-out><![CDATA[[2026-09-18 23:30:14] [main] [INFO] Database schema verified and initialized.
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [1] Dune
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [2] Interstellar
+[2026-09-18 23:30:14] [main] [INFO] Film added successfully: [3] The Godfather
+]]></system-out>
+  </testcase>
+</testsuite>
